@@ -118,18 +118,6 @@ File Patch Code v3.5.1b [Phantom Wings]
 * 4BC25854 00000000
 * E0000000 80008000
 
-3138 - Tap Jump Sensitivity [0.6625->0.7]
-* 04B882C4 3F333333
-
-3141 - Dash/Run Tap Jump Sensitivity [0.5625->0.635]
-* 04B882D0 3F228F5C
-
-3187 - Platform Drop Sensitivity [-0.6875->-0.71]
-* 04B88388 BF35C28F
-
-3299 - Tumble Wiggle Sensitivity [0.8->0.75]
-* 04B88548 3F400000
-
 Down on C-Stick does not Fastfall v2.1 [Magus]
 * 4A000000 90000000
 * 1619C300 00000098
@@ -164,38 +152,8 @@ Tripping Rate is 0 v2 [ds22, KirbyIsCool]
 Ragequit Accelerator [InternetExplorer]
 * 040F15D8 60000000
 
-Controller Input Lag Fix [Magus]
-* C202AD8C 00000002
-* 7C630214 3863FBFC
-* 60000000 00000000
-
-3122 - Dash, Pivot, & F-Smash Sensitivity [0.8->0.73]
-* 04B88284 3F3AE148
-
-3126 - Run Sensitivity [0.625->0.62]
-* 04B88294 3F1EB852
-
-3133 - Crouch & Tether Drop Sensitivity [-0.66->-0.625]
-* 04B882B0 BF200000
-
-3148 - Spotdodge Sensitivity [-0.7->-0.75]
-* 04B882EC BF400000
-
-3149 - Roll Sensitivity [0.7->0.75]
-* 04B882F0 3F400000
-
-3158 - U-Smash Sensitivity [0.6625->0.73]
-* 04B88314 3F3AE148
-
-3160 - D-Smash Sensitivity [-0.6625->-0.73]
-* 04B8831C BF3AE148
-
-3167 - Fastfall Sensitivity [-0.6625->-0.665]
-* 04B88338 BF2A3D71
-
-Pivot Sensitivity [0.8->0.475]
-* 06FAC244 00000008
-* 00000001 00006F54
+Powershield Window [spunit262]
+* 04B88F20 00000003
 
 Remove Dead Frame from Jump [Shanus]
 * 06FC18F8 00000010
@@ -247,16 +205,12 @@ Grab Jump Return [Phantom Wings]
 * 80A5000C 90850004
 * 809900AC 00000000
 
-Accurate Shield Stun [Mawootad]
-* 04B88464 4025999A
-* 04B88468 40CCCCCD
-
 Buffer Mod [Phantom Wings, spunit262]
 * 0485B784 38600005
 
-Tech Window [Phantom Wings, spunit262]
-* 04B88EC0 00000009
-
 Hitstun [Phantom Wings, spunit262]
 * 02B88F48 00030001
-* 04B87AA8 3F028F5C
+* 04B87AA8 3F000000
+
+Tech Window [Phantom Wings, spunit262]
+* 04B88EC0 00000009
